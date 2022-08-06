@@ -1,0 +1,153 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 500;
+}
+
+/* НАЧАЛО СТИЛЕЙ ПРОЕКТА */
+body {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-style: 16px;
+	font-weight: 400;
+	color: #3a3a3a;
+}
+
+.app {
+	max-width: 768px;
+	margin: 0 auto;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.app__title {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.app__wrap {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.app__input {
+	border: 1px solid #3a3a3a;
+	display: inline-block;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 22px;
+	padding: 10px;
+}
+
+.app__list {
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	border: 1px solid #3a3a3a;
+	border-radius: 5px;
+	font-size: 22px;
+	padding: 10px;
+	list-style: decimal;
+}
+
+.app__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	border: 1px solid #3a3a3a;
+	margin: 5px 0;
+	border-radius: 5px;
+}
+
+.app__info {
+	text-align: left;
+	font-weight: 300;
+}
+
+.app__del {
+	font-weight: 700;
+	color: red;
+	font-size: 22px;
+	background-color: transparent;
+}
+
+.app__hint {
+	border: 1px solid red;
+	text-align: left;
+	padding: 10px;
+	border: 1px solid #3a3a3a;
+	border-radius: 5px;
+	display: none;
+}
+
+.app__hint a {
+	padding: 5px;
+	font-size: 20px;
+	display: block;
+	color: #3a3a3a;
+	border-radius: 5px;
+}
+
+.app__hint a:hover {
+	background-color: rgb(230, 230, 230);
+}
