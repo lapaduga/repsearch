@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const input = document.getElementById("search-input");
 
-  input.addEventListener("keyup", (event) => {
+  input.addEventListener("input", (event) => {
     if (event.target.value) {
       debounceData(event.target.value);
     } else {
